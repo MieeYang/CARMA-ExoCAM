@@ -647,8 +647,8 @@ contains
         call wrap_inq_varid(fid, 'cosz', zen_vid)
         call wrap_get_var_realx(fid, zen_vid, carma_emis_zen)
 
-        write(*,*) "CARMA emis levs", carma_emis_lev
-        write(*,*) "CARMA emis zenith", carma_emis_zen
+!        write(*,*) "CARMA emis levs", carma_emis_lev
+!        write(*,*) "CARMA emis zenith", carma_emis_zen
 
         ! Read in the tables.
         call wrap_inq_varid(fid, 'MHAZE', rate_vid)
@@ -659,7 +659,7 @@ contains
            call handle_error (tmp)
         end if
 
-        write(*,*) "CARMA emis rate", carma_emis_rate
+!        write(*,*) "CARMA emis rate", carma_emis_rate
 
         ! Close the file.
         call wrap_close(fid)

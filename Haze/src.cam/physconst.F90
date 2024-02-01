@@ -353,7 +353,7 @@ contains
         write(iulog,*) 'DO_EXO_RT_CLEARSKY: ', do_exo_rt_clearsky
         write(iulog,*) 'DO_EXO_RT_SPECTRAL: ', do_exo_rt_spectral
         write(iulog,*) 'EXO_RAD_STEP: ', exo_rad_step
-        write(iulog,*) 'DO_GRAVITY_WAVES: ', do_exo_gw
+!        write(iulog,*) 'DO_GRAVITY_WAVES: ', do_exo_gw
         write(iulog,*) '******************************************************'
         write(iulog,*) '***       ExoCAM: Stellar Spectral Options         ***'
         write(iulog,*) '******************************************************'
@@ -378,12 +378,12 @@ contains
         write(iulog,*) 'H2   BAR: ', exo_h2bar
         write(iulog,*) 'CO2  BAR: ', exo_co2bar
         write(iulog,*) 'CH4  BAR: ', exo_ch4bar
-        write(iulog,*) 'C2H6 BAR: ', exo_c2h6bar
+!        write(iulog,*) 'C2H6 BAR: ', exo_c2h6bar
         write(iulog,*) 'N2   VMR, MMR: ', exo_n2vmr, exo_n2mmr
         write(iulog,*) 'H2   VMR, MMR: ', exo_h2vmr, exo_h2mmr
         write(iulog,*) 'CO2  VMR, MMR: ', exo_co2vmr, exo_co2mmr
         write(iulog,*) 'CH4  VMR, MMR: ', exo_ch4vmr, exo_ch4mmr
-        write(iulog,*) 'C2H6 VMR, MMR: ', exo_c2h6vmr, exo_c2h6mmr     
+!        write(iulog,*) 'C2H6 VMR, MMR: ', exo_c2h6vmr, exo_c2h6mmr     
         write(iulog,*) 'CPDAIR:  ', SHR_CONST_CPDAIR
         write(iulog,*) 'MWDRY:   ', SHR_CONST_MWDAIR
         write(iulog,*) 'RWV:     ', SHR_CONST_RWV
